@@ -13,7 +13,7 @@ export default function CharacterList({ character, loading }: CharacterListProps
     return (
       <div className="flex justify-center p-5">
         <img
-          src="./empty.png"
+          src="/empty.png"
           alt="Character"
           className="w-3/4 sm:w-1/2 object-contain"
         />
